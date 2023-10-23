@@ -8,7 +8,7 @@ namespace SzuperhosProjekt
 {
     internal interface ISzuperhos
     {
-        void LegyoziE();
+        bool LegyoziE(ISzuperhos elem);
         double MekkoraAzEreje();
     }
 }
