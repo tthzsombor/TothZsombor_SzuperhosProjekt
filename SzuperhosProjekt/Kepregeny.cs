@@ -16,6 +16,9 @@ namespace SzuperhosProjekt
             BATMAN
         }
 
+        public static List<string> szuperhosok;
+
+
 
         public static void Szereplok(string fájl)
         {
@@ -26,9 +29,9 @@ namespace SzuperhosProjekt
                     string sor=sr.ReadLine();
                     string[] darabok = sor.Split(';');
 
-                    if (darabok[0]=="Vasember")
+                    if (darabok[0].Equals(SZEREPLO.VASEMBER))
                     {
-                        
+                       
                     }
                 }
             }

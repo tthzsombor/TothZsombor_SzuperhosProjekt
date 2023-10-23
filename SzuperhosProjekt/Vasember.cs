@@ -28,7 +28,16 @@ namespace SzuperhosProjekt
 
         public override string ToString()
         {
-            return $"Vasember: Szupererő: {this.Szuperero}; {VanEGyengesege}";
+            string gyengeseg = "";
+            if (VanEGyengesege==true)
+            {
+                gyengeseg = "van gyengesege";
+            }
+            else
+            {
+                gyengeseg = "nincs gyengesége";
+            }
+            return $"Vasember: Szupererő: {this.Szuperero}; {gyengeseg}";
         }
     }
 }
