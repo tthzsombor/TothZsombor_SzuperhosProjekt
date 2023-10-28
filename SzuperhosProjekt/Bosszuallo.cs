@@ -27,13 +27,15 @@ namespace SzuperhosProjekt
         {
             bool legyozi=false;
 
-            if (other.VanEGyengesege==true && other.Szuperero<this.Szuperero)
+            if (other.VanEGyengesege == true && other.Szuperero < this.Szuperero)
             {
-                 legyozi= true;
+                legyozi = true;
             }
-        
+
             return legyozi;
         }
+
+    
 
         public double MekkoraAzEreje()
         {
@@ -44,5 +46,7 @@ namespace SzuperhosProjekt
         {
             return $"Szupererő: {this.szuperero}; {this.vanEGyengesege}";
         }
+
+       
     }
 }

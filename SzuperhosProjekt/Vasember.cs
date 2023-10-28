@@ -18,7 +18,7 @@ namespace SzuperhosProjekt
 
         public void KutyutKeszit()
         {
-            Szuperero= Szuperero+rnd.NextDouble()+rnd.Next(0,11);
+            Szuperero += rnd.NextDouble()+rnd.Next(0,9);
         }
 
         public override bool MegmentiAVilagot()
