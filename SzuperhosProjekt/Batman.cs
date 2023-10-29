@@ -20,10 +20,10 @@ namespace SzuperhosProjekt
             lelemenyesseg += 50;
         }
 
-        public bool LegyoziE(ISzuperhos elem)
+        public bool LegyoziE(Bosszuallo other)
         {
             bool legyozie=false;
-            if (elem.MekkoraAzEreje()<this.lelemenyesseg)
+            if (other.MekkoraAzEreje()<this.lelemenyesseg)
             {
                 legyozie = true;
             }
